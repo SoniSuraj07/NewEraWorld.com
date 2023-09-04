@@ -30,6 +30,7 @@
 }
 .cw-right a{
   color: white;
+  margin: 0 5px;
 }
 .cw-right a:hover, a:active{
   color: rgb(27, 34, 41);

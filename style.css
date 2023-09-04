@@ -1,0 +1,64 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+}
+
+/* Copyright-div styling */
+.copyright-div{
+  position: fixed;
+  bottom: 0;
+}
+/* Copyright Left Section Styling */
+.cw-left{
+  text-align: left;
+  background-color: gray;
+  color: white;
+}
+.cw-left a{
+  color: white;
+}
+.cw-left a:hover, a:active{
+  color: rgb(27, 34, 41);
+}
+
+/* Copyright Right Section Styling */
+.cw-right{
+  text-align: right;
+  background-color: gray;
+}
+.cw-right a{
+  color: white;
+}
+.cw-right a:hover, a:active{
+  color: rgb(27, 34, 41);
+}
+
+@media (max-width: 576px){
+  .cw-left{
+    text-align: center;
+    font-size: small;
+  }
+  .cw-right{
+    text-align: center;
+  }
+}
+@media (min-width: 577px) and (max-width: 768px){
+  .cw-left{
+    font-size: medium;
+    text-align: center;
+  }
+  .cw-right{
+    text-align: center;
+  }
+}
+@media (min-width: 769px) and (max-width: 948px){
+  .cw-left{
+    font-size: large;
+    text-align: left;
+  }
+  .cw-right{
+    text-align: right;
+  }
+}

@@ -7,7 +7,7 @@
 
 /* Copyright-div styling */
 .copyright-div{
-  position: fixed;
+  position: absolute;
   bottom: 0;
 }
 /* Copyright Left Section Styling */

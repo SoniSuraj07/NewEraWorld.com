@@ -4,9 +4,7 @@
   margin: 0;
   padding: 0;
 }
-body{
-  background-color: gray;
-}
+
 /* Copyright-div styling */
 .copyright-div{
   position: fixed;

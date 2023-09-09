@@ -18,6 +18,7 @@
 }
 .cw-left a{
   color: white;
+  margin: 0 5px;
 }
 .cw-left a:hover, a:active{
   color: rgb(27, 34, 41);
@@ -27,10 +28,10 @@
 .cw-right{
   text-align: right;
   background-color: gray;
+  color: white;
 }
 .cw-right a{
   color: white;
-  margin: 0 5px;
 }
 .cw-right a:hover, a:active{
   color: rgb(27, 34, 41);

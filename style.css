@@ -79,12 +79,7 @@
     text-align: center;
   }
 }
-.social-buttons{
-  bottom: 10%;
-  display: flex;
-  flex-direction: row;
-  gap: 5px;
-}
+
 
 @media (min-width: 577px) and (max-width: 768px){
   .cw-left{
@@ -94,6 +89,12 @@
   .cw-right{
     text-align: center;
   }
+}
+.social-buttons{
+  bottom: 10%;
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
 }
 @media (min-width: 769px) and (max-width: 948px){
   .cw-left{

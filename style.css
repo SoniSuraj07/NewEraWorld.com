@@ -40,35 +40,7 @@
 .cw-right a:hover, a:active{
   color: rgb(27, 34, 41);
 }
-/* Social Media Buttons Styling */
-.social-buttons {
-    position: fixed;
-    bottom: 20%;
-    right: 0;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    background-color: transparent;
-}
 
-.social-buttons a {
-    display: inline-block;
-    padding: 10px 20px;
-    text-decoration: none;
-    border: 2px solid gray; /* You can customize the border color */
-    background-color: #fff;
-    color: gray; /* You can customize the button color */
-    border-radius: 5px;
-    text-align: center;
-    font-weight: bold;
-    transition: background-color 0.3s ease, color 0.3s ease;
-}
-
-.social-buttons a:hover {
-    background-color: gray; /* You can customize the hover background color */
-    color: #fff; /* You can customize the hover text color */
-}
-/* Social Media Buttons Styling Ends */
 
 @media (max-width: 576px){
   .cw-left{
@@ -77,12 +49,6 @@
   }
   .cw-right{
     text-align: center;
-  }
-  .social-buttons{
-    bottom: 10%;
-    display: flex;
-    flex-direction: row;
-    gap: 5px;
   }
 }
 
@@ -94,15 +60,6 @@
   .cw-right{
     text-align: center;
   }
-  .social-buttons {
-    position: fixed;
-    bottom: 20%;
-    right: 0;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    background-color: transparent;
-}
 }
 
 @media (min-width: 769px) and (max-width: 948px){
@@ -113,13 +70,4 @@
   .cw-right{
     text-align: right;
   }
-  .social-buttons {
-    position: fixed;
-    bottom: 20%;
-    right: 0;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    background-color: transparent;
-}
 }

@@ -40,6 +40,35 @@
 .cw-right a:hover, a:active{
   color: rgb(27, 34, 41);
 }
+/* Social Media Buttons Styling */
+.social-buttons {
+    position: fixed;
+    bottom: 20%;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: transparent;
+}
+
+.social-buttons a {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    border: 2px solid #0078D4; /* You can customize the border color */
+    background-color: #fff;
+    color: #0078D4; /* You can customize the button color */
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.social-buttons a:hover {
+    background-color: #0078D4; /* You can customize the hover background color */
+    color: #fff; /* You can customize the hover text color */
+}
+/* Social Media Buttons Styling Ends */
 
 @media (max-width: 576px){
   .cw-left{
